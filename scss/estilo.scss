@@ -1,0 +1,90 @@
+/* import */
+@import "galeria";
+@import "nosotros";
+@import "tarifas";
+@import "contacto";
+/* variables */
+$ColorBlack:#000000;
+$ColorGray:#494747;
+$Colorgray2:#878787;
+$ColorWhite: #FFFDFD;
+
+
+
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* fondo de pagina */
+body{
+    background: url(../img/fondo.jpg) no-repeat center center fixed;
+    background-size: 100%;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/* vinietas de enlace lado derecho */
+.vinietas{
+    font-family: cursive;
+    background-color:$ColorBlack;
+    margin: 10px;
+    padding: 20px;
+}
+
+
+/* listado apariencia */
+li {
+    display: inline-block;
+}
+
+
+/* titulo principal de todas los html */
+h1{
+    font-family: 'Potta One', cursive;
+    color:$ColorBlack;
+    text-align: left;
+    font-size: 80px;
+}
+
+
+/* lista, listado*/
+nav{
+    text-align: right;
+    background-image: linear-gradient(to left, $ColorBlack, $ColorGray);
+}
+
+
+/* segundo titulo */
+h2{
+    font-family: 'Potta One', cursive;
+    color:$ColorGray2;
+    font-size: 80px;
+    text-align: center;
+    
+}
+
+
+/* texto */
+main p{
+    color:$Colorgray2;
+    font-size: 30px;
+    font-family: 'Potta One', cursive;
+}
+
+
+/* redes sociales con logos! */
+footer{
+    font-family: 'Potta One', cursive;
+    text-align: center;
+    object-fit: cover;
+    padding: 200px;
+
+    
+}
+

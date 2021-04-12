@@ -1,0 +1,112 @@
+/* import */
+/* Variables */
+/* container de fotos! */
+.grid-container {
+  display: grid;
+  gap: 10px;
+  padding: 10px;
+  margin: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax 500px, auto; }
+
+/* estilo de fotos */
+.galeria_imagenes {
+  width: 600px;
+  height: 800px;
+  object-fit: cover;
+  padding: 10px;
+  margin: 10px;
+  background-color: #F2F3F4; }
+
+/* Variables */
+/* responsive */
+@media (max-width: (480px, 768px, 1080)) {
+  tabla {
+    width: 100px; } }
+
+.tabla {
+  color: #FF0000;
+  font-family: cursive;
+  background-color: #090101;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: auto;
+  width: 550px;
+  height: 100px;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px;
+  color: black;
+  font-family: 'Potta One', cursive;
+  font-size: 25px;
+  text-align: center; }
+
+/* formato caja de formulario */
+.contacto {
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: auto;
+  width: 550px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px;
+  color: black;
+  font-family: 'Potta One', cursive; }
+
+/* variables */
+/* RESET */
+* {
+  margin: 0;
+  padding: 0; }
+
+/* fondo de pagina */
+body {
+  background: url(../img/fondo.jpg) no-repeat center center fixed;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* vinietas de enlace lado derecho */
+.vinietas {
+  font-family: cursive;
+  background-color: #000000;
+  margin: 10px;
+  padding: 20px; }
+
+/* listado apariencia */
+li {
+  display: inline-block; }
+
+/* titulo principal de todas los html */
+h1 {
+  font-family: 'Potta One', cursive;
+  color: #000000;
+  text-align: left;
+  font-size: 80px; }
+
+/* lista, listado*/
+nav {
+  text-align: right;
+  background-image: linear-gradient(to left, #000000, #494747); }
+
+/* segundo titulo */
+h2 {
+  font-family: 'Potta One', cursive;
+  color: #494747;
+  font-size: 80px;
+  text-align: center; }
+
+/* texto */
+main p {
+  color: #878787;
+  font-size: 30px;
+  font-family: 'Potta One', cursive; }
+
+/* redes sociales con logos! */
+footer {
+  font-family: 'Potta One', cursive;
+  text-align: center;
+  object-fit: cover;
+  padding: 200px; }

@@ -1,0 +1,16 @@
+$ColorTransparente: rgba(255, 255, 255, 0.5);
+
+
+
+/* formato caja de formulario */
+.contacto{
+    background-color: $ColorTransparente;
+    margin: auto;
+    width: 550px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    color: black;
+    font-family: 'Potta One', cursive;
+}
